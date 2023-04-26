@@ -15,7 +15,7 @@ import com.example.demo.entity.Questions;
 import com.example.demo.service.QuesService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://singular-longma-a5f2a4.netlify.app")
 public class QuesController {
 	@Autowired
 	QuesService service;
